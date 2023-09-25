@@ -1,0 +1,151 @@
+:root {
+
+    /* font families */
+    --ff-Roboto: 'Roboto', sans-serif;
+    --ff-Inter: 'Inter', sans-serif;
+    --ff-Sen: 'Sen', sans-serif;
+
+
+
+    /* font sizes */
+    --fs-xl-12: 110px;
+    --fs-xl-11: 106px;
+    --fs-xl-10: 101px;
+    --fs-xl-9: 94px;
+    --fs-xl-8: 70px;
+    --fs-xl-7: 68px;
+    --fs-xl-6: 46px;
+    --fs-xl-5: 42px;
+    --fs-xl-4: 40px;
+    --fs-xl-3: 39px;
+    --fs-xl-2: 38px;
+    --fs-large: 37px;
+    --fs-medium: 36px;
+    --fs-small: 35px;
+    --fs-vs: 32px;
+    --fs-vs-2: 28px;
+    --fs-vs-3: 26px;
+    --fs-vs-4: 25px;
+    --fs-vs-5: 21px;
+    --fs-vs-6: 20px;
+    --fs-vs-7: 19px;
+    --fs-vs-8: 18px;
+    --fs-vs-9: 17px;
+    --fs-vs-10: 16px;
+    --fs-vs-11: 15px;
+    --fs-vs-12: 12px;
+    --fs-vs-13: 11px;
+
+
+    /* colors */
+    --color-white: #FFFFFF;
+    --color-gray: #848895;
+    --color-black: #000000;
+    --color-light-blue: #618ADC;
+    --color-gray-2: #C4C4C4;
+    --color-gray-3: #BABABA;
+    --color-gray-4: #848895;
+    --color-purple: #9945FF;
+}
+
+
+/* CSS classes */
+
+/* font families */
+
+.ff-Roboto {
+    font-family: var(--ff-Roboto);
+}
+
+/* font sizes */
+
+.fs-xl-6 {
+    font-size: var(--fs-xl-6);
+}
+
+.fs-xl-5 {
+    font-size: var(--fs-xl-5);
+}
+
+.fs-xl-4 {
+    font-size: var(--fs-xl-4);
+}
+
+.fs-xl-3 {
+    font-size: var(--fs-xl-3);
+}
+
+.fs-xl-2 {
+    font-size: var(--fs-xl-2);
+}
+
+.fs-large {
+    font-size: var(--fs-large);
+}
+
+.fs-medium {
+    font-size: var(--fs-medium);
+}
+
+.fs-small {
+    font-size: var(--fs-small);
+}
+
+.fs-vs {
+    font-size: var(--fs-vs);
+}
+
+.fs-vs-2 {
+    font-size: var(--fs-vs-2);
+}
+
+.fs-vs-3 {
+    font-size: var(--fs-vs-3);
+}
+
+.fs-vs-4 {
+    font-size: var(--fs-vs-4);
+}
+
+.fs-vs-5 {
+    font-size: var(--fs-vs-5);
+}
+
+.fs-vs-6 {
+    font-size: var(--fs-vs-6);
+}
+
+.fs-vs-7 {
+    font-size: var(--fs-vs-7);
+}
+
+.fs-vs-8 {
+    font-size: var(--fs-vs-8);
+}
+
+/* colors */
+
+.color-black{
+    color: var(--color-black);
+}
+.color-purple{
+    color: var(--color-purple);
+}
+.color-light-blue{
+    color: var(--color-light-blue);
+}
+.color-white{
+    color: var(--color-white);
+}
+.color-gray{
+    color: var(--color-gray);
+}
+.color-gray-2{
+    color: var(--color-gray-2);
+}
+.color-gray-3{
+    color: var(--color-gray-3);
+}
+.color-gray-4{
+    color: var(--color-gray-4);
+}
