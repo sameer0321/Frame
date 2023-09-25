@@ -51,6 +51,8 @@
 
 /* CSS classes */
 
+
+
 /* font families */
 
 .ff-Roboto {
@@ -59,6 +61,24 @@
 
 /* font sizes */
 
+.fs-xl-12 {
+    font-size: var(--fs-xl-12);
+}
+.fs-xl-11 {
+    font-size: var(--fs-xl-11);
+}
+.fs-xl-10 {
+    font-size: var(--fs-xl-10);
+}
+.fs-xl-9 {
+    font-size: var(--fs-xl-9);
+}
+.fs-xl-8 {
+    font-size: var(--fs-xl-8);
+}
+.fs-xl-7 {
+    font-size: var(--fs-xl-7);
+}
 .fs-xl-6 {
     font-size: var(--fs-xl-6);
 }
@@ -121,6 +141,21 @@
 
 .fs-vs-8 {
     font-size: var(--fs-vs-8);
+}
+.fs-vs-9 {
+    font-size: var(--fs-vs-9);
+}
+.fs-vs-10 {
+    font-size: var(--fs-vs-10);
+}
+.fs-vs-11 {
+    font-size: var(--fs-vs-11);
+}
+.fs-vs-12 {
+    font-size: var(--fs-vs-12);
+}
+.fs-vs-12 {
+    font-size: var(--fs-vs-13);
 }
 
 /* colors */
