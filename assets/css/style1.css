@@ -11,6 +11,10 @@
     border-radius: 24px;
     border: 1px solid #FFF;
 }
+.button5{
+    background: none !important;
+    border-radius: none;
+}
 
 /* padding */
 .padding2 {
@@ -27,8 +31,20 @@
     padding-top: 75px;
     padding-bottom: 75px;
 }
-
-
+.py-31{
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pl-31{
+    padding-left: 31px;
+}
+.pr-54{
+    padding-right: 54px;
+}
 /* other */
 .rectangle-elipse {
     max-width: 633.226px;
@@ -102,4 +118,37 @@ border: none;
 }
 .mw-387{
     max-width: 387px;
+}
+
+/* card */
+.card-1{
+    border-radius: 12px;
+background: #19161C;
+max-width: 346.203px;
+height: 282px;
+}
+.content2{
+    padding: 31px 31px;
+}
+
+
+
+
+
+/* ellipse */
+.elipse-5{
+    width: 259px;
+height: 31px;
+border-radius: 259px;
+background: #A962FF;
+filter: blur(40px);
+bottom: 0;
+left: 10%;
+opacity: 0;
+transition: all 300ms linear;
+visibility: hidden;
+}
+.card-1:hover .elipse-5{
+    opacity: 1;
+    visibility: visible;
 }
