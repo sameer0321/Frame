@@ -41,6 +41,7 @@
     --color-white: #FFFFFF;
     --color-gray: #848895;
     --color-black: #000000;
+    --color-black-2:#00000099;
     --color-light-blue: #618ADC;
     --color-gray-2: #C4C4C4;
     --color-gray-3: #BABABA;
@@ -59,26 +60,41 @@
     font-family: var(--ff-Roboto);
 }
 
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica.ttf);
+}
+
+.ff-helvetica {
+    font-family: Helvetica;
+}
+
 /* font sizes */
 
 .fs-xl-12 {
     font-size: var(--fs-xl-12);
 }
+
 .fs-xl-11 {
     font-size: var(--fs-xl-11);
 }
+
 .fs-xl-10 {
     font-size: var(--fs-xl-10);
 }
+
 .fs-xl-9 {
     font-size: var(--fs-xl-9);
 }
+
 .fs-xl-8 {
     font-size: var(--fs-xl-8);
 }
+
 .fs-xl-7 {
     font-size: var(--fs-xl-7);
 }
+
 .fs-xl-6 {
     font-size: var(--fs-xl-6);
 }
@@ -142,46 +158,67 @@
 .fs-vs-8 {
     font-size: var(--fs-vs-8);
 }
+
 .fs-vs-9 {
     font-size: var(--fs-vs-9);
 }
+
 .fs-vs-10 {
     font-size: var(--fs-vs-10);
 }
+
 .fs-vs-11 {
     font-size: var(--fs-vs-11);
 }
+
 .fs-vs-12 {
     font-size: var(--fs-vs-12);
 }
+
 .fs-vs-12 {
     font-size: var(--fs-vs-13);
 }
 
 /* colors */
 
-.color-black{
+.color-black {
     color: var(--color-black);
 }
-.color-purple{
+
+.color-purple {
     color: var(--color-purple);
 }
-.color-light-blue{
+
+.color-light-blue {
     color: var(--color-light-blue);
 }
-.color-white{
+
+.color-white {
     color: var(--color-white);
 }
-.color-gray{
+
+.color-gray {
     color: var(--color-gray);
 }
-.color-gray-2{
+
+.color-gray-2 {
     color: var(--color-gray-2);
 }
-.color-gray-3{
+
+.color-gray-3 {
     color: var(--color-gray-3);
 }
-.color-gray-4{
+
+.color-gray-4 {
     color: var(--color-gray-4);
 }
 
+.background-black {
+    background-color: var(--color-black);
+}
+.background-black-2{
+    background-color: var(--color-black-2);
+}
+.background-light-green{
+    background: #14F195;
+}

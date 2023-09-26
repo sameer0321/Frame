@@ -1,0 +1,35 @@
+@import url(/assets/css/root.css);
+@import url(/assets/css/style.css);
+
+/* button */
+.button3 {
+    border-radius: 24px;
+    border: 1px solid #000;
+}
+
+.button4 {
+    border-radius: 24px;
+    border: 1px solid #FFF;
+}
+
+/* padding */
+.padding2 {
+    padding: 10px 21px;
+}
+
+.padding3 {
+    padding: 10px 20px;
+}
+
+/* other */
+.rectangle-elipse {
+    max-width: 633.226px;
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(240, 135, 255, 0.30);
+    filter: blur(250px);
+    height: 100%;
+}
