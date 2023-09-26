@@ -45,6 +45,12 @@
 .pr-54{
     padding-right: 54px;
 }
+.padding5{
+    padding: 11px 21px;
+}
+.padding6{
+    padding: 2px 20px;
+}
 /* other */
 .rectangle-elipse {
     max-width: 633.226px;
@@ -151,4 +157,17 @@ visibility: hidden;
 .card-1:hover .elipse-5{
     opacity: 1;
     visibility: visible;
+}
+
+
+/* leainer gradiant */
+
+.bg-sec-img{
+    background: linear-gradient(180deg, #19161C 0%, #000 100%);
+}
+
+/* line */
+
+.bottom-line{
+    border-bottom: 2px solid #848895;
 }
