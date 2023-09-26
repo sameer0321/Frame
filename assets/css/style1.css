@@ -20,6 +20,14 @@
 .padding3 {
     padding: 10px 20px;
 }
+.padding4{
+    padding: 1px 11px;
+}
+.py-75{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 
 /* other */
 .rectangle-elipse {
@@ -32,4 +40,66 @@
     background: rgba(240, 135, 255, 0.30);
     filter: blur(250px);
     height: 100%;
+}
+.sec-box{
+    border-radius: 16px;
+background: #9945FF;
+border: none;
+}
+
+/* background image */
+
+.sec-bg-img{
+    background-image: url(../images/background-img.png);
+    background-repeat: no-repeat;
+}
+.bg-img1{
+    background-image: url(../images/bg-img1.png);
+    background-repeat: no-repeat;
+    height: 320px;
+    border-radius: 18px;
+}
+.f-absolute{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 10px;
+}
+.bg-img2{
+    background-image: url(../images/bg-img2.png);
+    background-repeat: no-repeat;
+    height: 320px;
+    border-radius: 18px;
+}
+.bg-img3{
+    background-image: url(../images/bg-img3.png);
+    background-repeat: no-repeat;
+    height: 320px;
+    border-radius: 18px;
+}
+.bg-img4{
+    background-image: url(../images/bg-img4.png);
+    background-repeat: no-repeat;
+    height: 320px;
+    border-radius: 18px;
+}
+.bg-img5{
+    background-image: url(../images/bg-img5.png);
+    background-repeat: no-repeat;
+    height: 320px;
+    border-radius: 18px;
+}
+.bg-img6{
+    background-image: url(../images/bg-img6.png);
+    background-repeat: no-repeat;
+    height: 320px;
+    border-radius: 18px;
+}
+
+/* max-width */
+.mw-390{
+    max-width: 390px;
+}
+.mw-387{
+    max-width: 387px;
 }
