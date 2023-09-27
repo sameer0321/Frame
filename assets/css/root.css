@@ -2,23 +2,22 @@
 
     /* font families */
     --ff-Roboto: 'Roboto', sans-serif;
-    --ff-Inter: 'Inter', sans-serif;
-    --ff-Sen: 'Sen', sans-serif;
+
 
 
 
     /* font sizes */
-    --fs-xl-12: 110px;
-    --fs-xl-11: 106px;
-    --fs-xl-10: 101px;
+    --fs-xl-12: 60px;
+    --fs-xl-11: 58px;
+    --fs-xl-10: 56px;
     --fs-xl-9: 94px;
-    --fs-xl-8: 70px;
+    --fs-xl-8: 54px;
     --fs-xl-7: 68px;
     --fs-xl-6: 46px;
     --fs-xl-5: 42px;
     --fs-xl-4: 40px;
     --fs-xl-3: 39px;
-    --fs-xl-2: 38px;
+    --fs-xl-2: 30px;
     --fs-large: 37px;
     --fs-medium: 36px;
     --fs-small: 35px;
@@ -47,6 +46,12 @@
     --color-gray-3: #BABABA;
     --color-gray-4: #848895;
     --color-purple: #9945FF;
+    --color-purple-2: #A962FF;
+    --color-purple-3:#F087FF;
+    --color-light-green:#14F195;
+    --color-light-green-2:#19FB9B;
+    --color-yellow:#FFEB3B;
+
 }
 
 
@@ -188,7 +193,12 @@
 .color-purple {
     color: var(--color-purple);
 }
-
+.color-purple-2 {
+    color: var(--color-purple-2);
+}
+.color-purple-3 {
+    color: var(--color-purple-3);
+}
 .color-light-blue {
     color: var(--color-light-blue);
 }
@@ -212,6 +222,9 @@
 .color-gray-4 {
     color: var(--color-gray-4);
 }
+.color-yellow{
+    color: var(--color-yellow);
+}
 
 .background-black {
     background-color: var(--color-black);
@@ -219,6 +232,23 @@
 .background-black-2{
     background-color: var(--color-black-2);
 }
+.color-light-green{
+    color: var(--color-light-green);
+}
+.color-light-green-2{
+    color: var(--color-light-green-2);
+}
 .background-light-green{
-    background: #14F195;
+    background: var(--color-light-green);
+}
+
+
+@media(min-width:576px){
+    :root{
+        --fs-xl-12: 110px;
+        --fs-xl-11: 106px;
+        --fs-xl-10: 101px;
+        --fs-xl-8: 70px;
+        --fs-xl-2: 38px;
+    }
 }
