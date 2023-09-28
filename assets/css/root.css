@@ -7,19 +7,17 @@
 
 
     /* font sizes */
-<<<<<<< HEAD
+
     --fs-xl-12: 110px;
     --fs-xl-11: 106px;
     --fs-xl-10: 101px;
     --fs-xl-9: 63px;
     --fs-xl-8: 70px;
-=======
     --fs-xl-12: 60px;
     --fs-xl-11: 58px;
     --fs-xl-10: 56px;
-    --fs-xl-9: 94px;
+    --fs-xl-9: 62px;
     --fs-xl-8: 54px;
->>>>>>> b524684e856d6a4165617a5dbb4d8ec1c08db4d3
     --fs-xl-7: 68px;
     --fs-xl-6: 46px;
     --fs-xl-5: 42px;
@@ -246,7 +244,6 @@
 .color-light-green{
     color: var(--color-light-green);
 }
-<<<<<<< HEAD
 
 @media (min-width:576px) {
     :root{
@@ -254,14 +251,14 @@
         --fs-xl-9: 94px;
         --fs-vs-11: 15px;
         --fs-vs: 32px;
-=======
+    }
 .color-light-green-2{
     color: var(--color-light-green-2);
 }
 .background-light-green{
     background: var(--color-light-green);
 }
-
+ }
 
 @media(min-width:576px){
     :root{
@@ -270,6 +267,8 @@
         --fs-xl-10: 85px;
         --fs-xl-8: 70px;
         --fs-xl-2: 38px;
+        --fs-xl-9: 94px;
+        
     }
 }
 @media(min-width:992px){
@@ -277,6 +276,5 @@
         --fs-xl-12: 110px;
         --fs-xl-11: 106px;
         --fs-xl-10: 101px;
->>>>>>> b524684e856d6a4165617a5dbb4d8ec1c08db4d3
     }
 }

@@ -8,17 +8,103 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
+
 <body class="background-black">
-    <header class="position-relative Z-1 overflow-hidden">
+    <header class="position-relative overflow-hidden">
         <div class="bg-blue">
             <div class="container custom-container">
                 <p class="ff-Roboto fw-normal fs-vs-9 color-black text-center mb-0 py-1">Breakpoint 2023 - New City. New
                     Vibes - Get Early Access -></p>
             </div>
         </div>
+        <nav class="background-black-2">
+            <div class="container custom-container">
+                <div class="d-flex align-items-center justify-content-between py-4">
+                    <div data-aos="fade-down-right">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </div>
+                    <label class="menu" data-aos="fade-down-left">
+                        <span class="span1"></span>
+                        <span class="span2"></span>
+                        <span class="span3"></span>
+                    </label>
+                    <ul class="m-0 p-0 d-flex align-items-center gap-5 mobileView" data-aos="fade-down-left">
+                        <li class="position-relative dropdown-button ff-helvetica fw-normal fs-vs-9 color-gray">
+                            Learn
+                                <span>
+                                    <svg class="downArrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.2931 1.29308C12.3853 1.19757 12.4957 1.12139 12.6177 1.06898C12.7397 1.01657 12.8709 0.988985 13.0037 0.987831C13.1365 0.986677 13.2681 1.01198 13.391 1.06226C13.5139 1.11254 13.6256 1.18679 13.7195 1.28069C13.8134 1.37458 13.8876 1.48623 13.9379 1.60913C13.9882 1.73202 14.0135 1.8637 14.0123 1.99648C14.0112 2.12926 13.9836 2.26048 13.9312 2.38249C13.8788 2.50449 13.8026 2.61483 13.7071 2.70708L7.70707 8.70708C7.52484 8.88934 7.27927 8.99421 7.0216 8.99979C6.76392 9.00538 6.51404 8.91127 6.32407 8.73708L0.324072 3.23708C0.128608 3.0578 0.0123704 2.8082 0.000930667 2.54321C-0.00473371 2.41201 0.0155007 2.28097 0.060479 2.15758C0.105457 2.03419 0.174299 1.92087 0.263072 1.82408C0.351846 1.7273 0.458813 1.64895 0.577867 1.5935C0.696921 1.53806 0.825729 1.5066 0.956939 1.50094C1.22193 1.4895 1.48061 1.58379 1.67607 1.76308L6.97007 6.61608L12.2931 1.29308Z"
+                                            fill="#848895" />
+                                    </svg>
+                                </span>
+                            <ul
+                                class="dropdown-list m-0 p-0 d-flex flex-column align-items-center justify-content-between p-2">
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 1</a></li>
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 2</a></li>
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="position-relative dropdown-button ff-helvetica fw-normal fs-vs-9 color-gray">
+                            Build
+                                <span>
+                                    <svg class="downArrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.2931 1.29308C12.3853 1.19757 12.4957 1.12139 12.6177 1.06898C12.7397 1.01657 12.8709 0.988985 13.0037 0.987831C13.1365 0.986677 13.2681 1.01198 13.391 1.06226C13.5139 1.11254 13.6256 1.18679 13.7195 1.28069C13.8134 1.37458 13.8876 1.48623 13.9379 1.60913C13.9882 1.73202 14.0135 1.8637 14.0123 1.99648C14.0112 2.12926 13.9836 2.26048 13.9312 2.38249C13.8788 2.50449 13.8026 2.61483 13.7071 2.70708L7.70707 8.70708C7.52484 8.88934 7.27927 8.99421 7.0216 8.99979C6.76392 9.00538 6.51404 8.91127 6.32407 8.73708L0.324072 3.23708C0.128608 3.0578 0.0123704 2.8082 0.000930667 2.54321C-0.00473371 2.41201 0.0155007 2.28097 0.060479 2.15758C0.105457 2.03419 0.174299 1.92087 0.263072 1.82408C0.351846 1.7273 0.458813 1.64895 0.577867 1.5935C0.696921 1.53806 0.825729 1.5066 0.956939 1.50094C1.22193 1.4895 1.48061 1.58379 1.67607 1.76308L6.97007 6.61608L12.2931 1.29308Z"
+                                            fill="#848895" />
+                                    </svg>
+                                </span>
+                            <ul
+                                class="dropdown-list m-0 p-0 d-flex flex-column align-items-center justify-content-between p-2">
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 1</a></li>
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 2</a></li>
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="position-relative dropdown-button ff-helvetica fw-normal fs-vs-9 color-gray">
+                            Network
+                                <span>
+                                    <svg class="downArrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.2931 1.29308C12.3853 1.19757 12.4957 1.12139 12.6177 1.06898C12.7397 1.01657 12.8709 0.988985 13.0037 0.987831C13.1365 0.986677 13.2681 1.01198 13.391 1.06226C13.5139 1.11254 13.6256 1.18679 13.7195 1.28069C13.8134 1.37458 13.8876 1.48623 13.9379 1.60913C13.9882 1.73202 14.0135 1.8637 14.0123 1.99648C14.0112 2.12926 13.9836 2.26048 13.9312 2.38249C13.8788 2.50449 13.8026 2.61483 13.7071 2.70708L7.70707 8.70708C7.52484 8.88934 7.27927 8.99421 7.0216 8.99979C6.76392 9.00538 6.51404 8.91127 6.32407 8.73708L0.324072 3.23708C0.128608 3.0578 0.0123704 2.8082 0.000930667 2.54321C-0.00473371 2.41201 0.0155007 2.28097 0.060479 2.15758C0.105457 2.03419 0.174299 1.92087 0.263072 1.82408C0.351846 1.7273 0.458813 1.64895 0.577867 1.5935C0.696921 1.53806 0.825729 1.5066 0.956939 1.50094C1.22193 1.4895 1.48061 1.58379 1.67607 1.76308L6.97007 6.61608L12.2931 1.29308Z"
+                                            fill="#848895" />
+                                    </svg>
+                                </span>
+                            <ul
+                                class="dropdown-list m-0 p-0 d-flex flex-column align-items-center justify-content-between p-2">
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 1</a></li>
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 2</a></li>
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="position-relative dropdown-button ff-helvetica fw-normal fs-vs-9 color-gray">
+                            Community
+                                <span>
+                                    <svg class="downArrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.2931 1.29308C12.3853 1.19757 12.4957 1.12139 12.6177 1.06898C12.7397 1.01657 12.8709 0.988985 13.0037 0.987831C13.1365 0.986677 13.2681 1.01198 13.391 1.06226C13.5139 1.11254 13.6256 1.18679 13.7195 1.28069C13.8134 1.37458 13.8876 1.48623 13.9379 1.60913C13.9882 1.73202 14.0135 1.8637 14.0123 1.99648C14.0112 2.12926 13.9836 2.26048 13.9312 2.38249C13.8788 2.50449 13.8026 2.61483 13.7071 2.70708L7.70707 8.70708C7.52484 8.88934 7.27927 8.99421 7.0216 8.99979C6.76392 9.00538 6.51404 8.91127 6.32407 8.73708L0.324072 3.23708C0.128608 3.0578 0.0123704 2.8082 0.000930667 2.54321C-0.00473371 2.41201 0.0155007 2.28097 0.060479 2.15758C0.105457 2.03419 0.174299 1.92087 0.263072 1.82408C0.351846 1.7273 0.458813 1.64895 0.577867 1.5935C0.696921 1.53806 0.825729 1.5066 0.956939 1.50094C1.22193 1.4895 1.48061 1.58379 1.67607 1.76308L6.97007 6.61608L12.2931 1.29308Z"
+                                            fill="#848895" />
+                                    </svg>
+                                </span>
+                            <ul
+                                class="dropdown-list m-0 p-0 d-flex flex-column align-items-center justify-content-between p-2">
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 1</a></li>
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 2</a></li>
+                                <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="position-relative overflow-hidden">
             <div class="container custom-container">
                 <div class="row justify-content-center align-items-center">
@@ -86,9 +172,10 @@
                 <div data-aos="zoom-in" class="col-lg-4 col-md-6 col-sm-6 col-12 pt-4">
                     <div class="bg-img1 position-relative">
                         <div class="f-absolute">
+                            <div>
                             <button class="sec-box fs-vs-13 fw-normal color-white padding4 ff-helvetica">14
-                                Chapters</button>
-                            <div class="d-flex align-items-center justify-content-between">
+                                Chapters</button></div>
+                            <div class="d-flex h-100 align-items-center justify-content-between">
                                 <p class="fs-vs-8 fw-normal color-white ff-helvetica m-0 p-0 pt-2">Buildspace</p>
                                 <span><svg width="27" height="26" viewBox="0 0 27 26" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -672,6 +759,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/team.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
