@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Frame</title>
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
@@ -18,7 +18,7 @@
 </head>
 
 <body class="background-black">
-    <header class="position-relative">
+    <header class="position-relative overflow-hidden">
         <div class="bg-blue">
             <div class="container custom-container">
                 <p class="ff-Roboto fw-normal fs-vs-9 color-black text-center mb-0 py-1">Breakpoint 2023 - New City. New
@@ -28,16 +28,16 @@
         <nav class="background-black-2">
             <div class="container custom-container">
                 <div class="d-flex align-items-center justify-content-between py-4">
-                    <div>
+                    <div data-aos="fade-down-right">
                         <img src="assets/images/logo.png" alt="logo">
                     </div>
-                    <label class="menu">
+                    <label class="menu" data-aos="fade-down-left">
                         <span class="span1"></span>
                         <span class="span2"></span>
                         <span class="span3"></span>
                     </label>
-                    <ul class="m-0 p-0 d-flex align-items-center gap-5 mobileView">
-                        <li class="position-relative dropdown-button fw-normal fs-vs-9 color-gray">
+                    <ul class="m-0 p-0 d-flex align-items-center gap-5 mobileView" data-aos="fade-down-left">
+                        <li class="position-relative dropdown-button ff-helvetica fw-normal fs-vs-9 color-gray">
                             Learn
                                 <span>
                                     <svg class="downArrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
@@ -54,7 +54,7 @@
                                 <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 3</a></li>
                             </ul>
                         </li>
-                        <li class="position-relative dropdown-button fw-normal fs-vs-9 color-gray">
+                        <li class="position-relative dropdown-button ff-helvetica fw-normal fs-vs-9 color-gray">
                             Build
                                 <span>
                                     <svg class="downArrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
@@ -71,7 +71,7 @@
                                 <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 3</a></li>
                             </ul>
                         </li>
-                        <li class="position-relative dropdown-button fw-normal fs-vs-9 color-gray">
+                        <li class="position-relative dropdown-button ff-helvetica fw-normal fs-vs-9 color-gray">
                             Network
                                 <span>
                                     <svg class="downArrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
@@ -88,7 +88,7 @@
                                 <li><a class="navlink text-decoration-none color-black fs-vs-8" href="#">Link 3</a></li>
                             </ul>
                         </li>
-                        <li class="position-relative dropdown-button fw-normal fs-vs-9 color-gray">
+                        <li class="position-relative dropdown-button ff-helvetica fw-normal fs-vs-9 color-gray">
                             Community
                                 <span>
                                     <svg class="downArrow" width="15" height="9" viewBox="0 0 15 9" fill="none"
@@ -110,16 +110,16 @@
             </div>
         </nav>
         <div class="container custom-container">
-            <h1 class="pt-166 m-0 fw-normal fs-xl-8 color-white text-center" data-aos="zoom-in">Powerful for developers.</h1>
-            <h2 class="m-0 fw-normal fs-xl-7 color-white text-center" data-aos="zoom-in">Fast for everyone.</h2>
+            <h1 class="pt-166 m-0 ff-helvetica fw-normal fs-xl-8 color-white text-center" data-aos="zoom-in">Powerful for developers.</h1>
+            <h2 class="m-0 fw-normal ff-helvetica fs-xl-7 color-white text-center" data-aos="zoom-in">Fast for everyone.</h2>
             <div class="d-flex align-items-center justify-content-center pt-5">
-                <p class="m-0 mw-589 fw-normal fs-vs-5 color-white text-center">Bring blockchain to the people.
+                <p class="m-0 mw-589 ff-helvetica fw-normal fs-vs-5 color-white text-center" data-aos="zoom-in">Bring blockchain to the people.
                     Solana supports experiences for power users, new consumers, and everyone in between.</p>
             </div>
             <div class="d-flex align-items-center justify-content-center gap-3 pt-5 pb-120">
-                <button class="button padding1 bg-purple ff-Roboto fw-normal fs-vs-11 color-white">Start
+                <button class="button padding1 bg-purple ff-Roboto fw-normal fs-vs-11 color-white" data-aos="fade-up-right">Start
                     building</button>
-                <button class="button2 padding1 bg-transparent ff-Roboto fw-normal fs-vs-11 color-white">Read
+                <button class="button2 padding1 bg-transparent ff-Roboto fw-normal fs-vs-11 color-white" data-aos="fade-up-left">Read
                     docs</button>
             </div>
         </div>
@@ -130,16 +130,16 @@
             <img class="w-100" data-aos="fade-left" src="assets/images/second-elipse.png" alt="second-elipse">
         </div>
     </header>
-    <section>
+    <section class="overflow-hidden">
         <div class="container custom-container">
             <div class="d-flex align-items-center justify-content-center">
-                <h2 class="m-0 fw-normal fs-vs-11 color-light-blue paragraph1 pb-3 text-uppercase text-center">Powering
+                <h2 class="m-0 fw-normal ff-helvetica fs-vs-11 color-light-blue paragraph1 pb-3 text-uppercase text-center">Powering
                     tools and
                     integrations from
                     companies all
                     around the world</h2>
             </div>
-            <div class="d-flex gap-35 align-items-center flex-wrap pt-3">
+            <div class="d-flex gap-35 align-items-center justify-content-center flex-wrap pt-3" data-aos="zoom-in-up">
                 <div>
                     <img class="w-100" src="assets/images/brave-logo.png" alt="brave-logo">
                 </div>
@@ -164,23 +164,23 @@
             </div>
         </div>
     </section>
-    <section class="bg-elipse">
+    <section class="bg-elipse overflow-hidden">
         <div class="container custom-container">
-            <div class="row pt-124">
-                <div class="col-lg-6 col-md-6 col-12 pt-77">
-                    <h2 class="mw-296 m-0 fw-normal fs-xl-2 color-white">Join a community of millions.</h2>
+            <div class="row pt-70 pt-124">
+                <div class="col-lg-6 col-md-6 col-12 pt-77" data-aos="flip-right">
+                    <h2 class="mw-296 m-0 ff-helvetica fw-normal fs-xl-2 color-white">Join a community of millions.</h2>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12 pb-80">
+                <div class="col-lg-6 col-md-6 col-12 pb-80" data-aos="flip-left">
                     <div>
-                        <p class="m-0 fw-normal fs-xl-10 color-1">11.5M+</p>
+                        <p class="m-0 fw-normal ff-helvetica fs-xl-10 color-1">11.5M+</p>
                         <p class="m-0 ff-Roboto fw-normal fs-vs-10 color-gray-2 text-uppercase">Active accounts</p>
                     </div>
                     <div class="pt-5">
-                        <p class="m-0 fw-normal fs-xl-11 color-2">21.9M</p>
+                        <p class="m-0 fw-normal ff-helvetica fs-xl-11 color-2">21.9M</p>
                         <p class="m-0 ff-Roboto fw-normal fs-vs-10 color-gray-2 text-uppercase">NFTs minted</p>
                     </div>
                     <div class="pt-5">
-                        <p class="m-0 fw-normal fs-xl-12 color-3">$0.00025</p>
+                        <p class="m-0 fw-normal ff-helvetica fs-xl-12 color-3">$0.00025</p>
                         <p class="m-0 ff-Roboto fw-normal fs-vs-10 color-gray-2 text-uppercase">Average cost per
                             transaction</p>
                     </div>
@@ -190,8 +190,8 @@
         <div class="container custom-container">
             <div class="row pt-5">
                 <div class="col-lg-4 col-12">
-                    <h2 class="m-0 fw-normal fs-xl-4 color-white">Made for</h2>
-                    <h3 class="m-0 fw-normal fs-xl-2 color-white">mass adoption.</h3>
+                    <h2 class="m-0 ff-helvetica fw-normal fs-xl-4 color-white">Made for</h2>
+                    <h3 class="m-0 ff-helvetica fw-normal fs-xl-2 color-white">mass adoption.</h3>
                     <div class="d-flex align-items-center gap-1 pt-2">
                         <div class="blue-dot"></div>
                         <p class="m-0 ff-Roboto fw-normal fs-vs-10 color-gray-2 text-uppercase">Live data</p>
@@ -199,21 +199,21 @@
                 </div>
                 <div class="col-lg-8 col-12">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12 pt-64">
+                        <div class="col-lg-6 col-md-6 col-12 pt-64" data-aos="flip-left">
                             <div class="card2">
                                 <div class="py-32 pl-32 pr-58">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="vertical-line-1"></div>
-                                        <p class="m-0 fw-normal fs-vs-2 color-white">Fast</p>
+                                        <p class="m-0 fw-normal ff-helvetica fs-vs-2 color-white">Fast</p>
                                     </div>
-                                    <p class="m-0 fw-normal fs-vs-9 color-gray-2 pt-2">Don't keep your users waiting.
+                                    <p class="m-0 fw-normal ff-helvetica fs-vs-9 color-gray-2 pt-2">Don't keep your users waiting.
                                         Solana has block times of 400 milliseconds — and as hardware gets faster, so
                                         will the network.</p>
                                     <div class="d-flex align-items-center gap-1 pt-3">
                                         <div class="blue-dot"></div>
-                                        <p class="m-0 fw-normal fs-vs-2 color-white">3,969</p>
+                                        <p class="m-0 fw-normal ff-helvetica fs-vs-2 color-white">3,969</p>
                                     </div>
-                                    <p class="m-0 fw-normal fs-vs-10 color-gray-2 text-uppercase pt-2">Transactions per
+                                    <p class="m-0 fw-normal ff-Roboto fs-vs-10 color-gray-2 text-uppercase pt-2">Transactions per
                                         second</p>
                                 </div>
                             </div>
@@ -221,35 +221,35 @@
                                 <div class="py-32 pl-32 pr-45">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="vertical-line-2"></div>
-                                        <p class="m-0 fw-normal fs-vs-2 color-white">Scalable</p>
+                                        <p class="m-0 fw-normal ff-helvetica fs-vs-2 color-white">Scalable</p>
                                     </div>
-                                    <p class="m-0 fw-normal fs-vs-9 color-gray-2 pt-2">Get big, quick. Solana is made to
+                                    <p class="m-0 fw-normal ff-helvetica fs-vs-9 color-gray-2 pt-2">Get big, quick. Solana is made to
                                         handle thousands of transactions per second, and fees for both developers and
                                         users remain less than $0.01.</p>
                                     <div class="d-flex align-items-center gap-1 pt-3">
                                         <div class="blue-dot"></div>
-                                        <p class="m-0 fw-normal fs-vs-2 color-white">163,077,581,394</p>
+                                        <p class="m-0 ff-helvetica fw-normal fs-vs-2 color-white">163,077,581,394</p>
                                     </div>
-                                    <p class="m-0 fw-normal fs-vs-10 color-gray-2 text-uppercase pt-2">Total
+                                    <p class="m-0 ff-Roboto fw-normal fs-vs-10 color-gray-2 text-uppercase pt-2">Total
                                         transactions</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-12">
+                        <div class="col-lg-6 col-md-6 col-12" data-aos="flip-right">
                             <div class="card2">
                                 <div class="py-32 pl-32 pr-38">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="vertical-line-3"></div>
-                                        <p class="m-0 fw-normal fs-vs-2 color-white">Decentralized</p>
+                                        <p class="m-0 ff-helvetica fw-normal fs-vs-2 color-white">Decentralized</p>
                                     </div>
-                                    <p class="m-0 fw-normal fs-vs-9 color-gray-2 pt-2">The Solana network is validated
+                                    <p class="m-0 ff-helvetica fw-normal fs-vs-9 color-gray-2 pt-2">The Solana network is validated
                                         by thousands of nodes that operate independently of each other, ensuring your
                                         data remains secure and censorship resistant.</p>
                                     <div class="d-flex align-items-center gap-1 pt-3">
                                         <div class="blue-dot"></div>
-                                        <p class="m-0 fw-normal fs-vs-2 color-white">1,675</p>
+                                        <p class="m-0 ff-helvetica fw-normal fs-vs-2 color-white">1,675</p>
                                     </div>
-                                    <p class="m-0 fw-normal fs-vs-10 color-gray-2 text-uppercase pt-2">Validator nodes
+                                    <p class="m-0 ff-Roboto fw-normal fs-vs-10 color-gray-2 text-uppercase pt-2">Validator nodes
                                     </p>
                                 </div>
                             </div>
@@ -257,14 +257,14 @@
                                 <div class="py-32 pl-32 pr-38">
                                     <div class="d-flex align-items-center gap-3">
                                         <div class="vertical-line-4"></div>
-                                        <p class="m-0 fw-normal fs-vs-2 color-white">Energy Efficient</p>
+                                        <p class="m-0 ff-helvetica fw-normal fs-vs-2 color-white">Energy Efficient</p>
                                     </div>
-                                    <p class="m-0 fw-normal fs-vs-9 color-gray-2 pt-2">Solana's proof of stake network
+                                    <p class="m-0 fw-normal ff-helvetica fs-vs-9 color-gray-2 pt-2">Solana's proof of stake network
                                         and other innovations minimize its impact on the <span
                                             class="color-light-green text-decoration-underline">environment.</span> Each
                                         Solana transaction uses about the same energy as a few Google searches.</p>
-                                    <p class="pt-3 m-0 fw-normal fs-vs-2 color-white">0%</p>
-                                    <p class="m-0 fw-normal fs-vs-10 color-gray-2 text-uppercase pt-2">Net carbon impact
+                                    <p class="pt-3 m-0 ff-helvetica fw-normal fs-vs-2 color-white">0%</p>
+                                    <p class="m-0 ff-Roboto fw-normal fs-vs-10 color-gray-2 text-uppercase pt-2">Net carbon impact
                                     </p>
                                 </div>
                             </div>
@@ -274,11 +274,11 @@
             </div>
         </div>
     </section>
-    <section class="pt-124">
+    <section class="pt-70 pt-124 overflow-hidden">
         <div class="container custom-container">
             <div class="d-flex flex-column flex-md-row align-items-center justify-content-between pb-3 ">
-                <h2 class="fw-normal fs-xl-3 color-white">Build for growth.</h2>
-                <ul class="m-0 p-0 d-flex align-items-center gap-3 flex-wrap justify-content-center pt-4 pt-md-0">
+                <h2 class="fw-normal ff-helvetica fs-xl-3 color-white" data-aos="fade-right">Build for growth.</h2>
+                <ul class="m-0 p-0 d-flex align-items-center gap-3 flex-wrap justify-content-center pt-4 pt-md-0" data-aos="fade-left">
                     <li><a class="nav-box text-decoration-none fw-normal fs-vs-11 color-white" href="#">NFTs</a></li>
                     <li><a class="nav-box text-decoration-none fw-normal fs-vs-11 color-white" href="#">DeFi</a></li>
                     <li><a class="nav-box text-decoration-none fw-normal fs-vs-11 color-white" href="#">Payments</a>
@@ -288,18 +288,18 @@
                 </ul>
             </div>
             <div class="d-flex flex-column flex-lg-row pt-3">
-                <div>
+                <div data-aos="fade-up-right">
                     <img class="w-100" src="assets/images/card-img.png" alt="card-img">
                 </div>
-                <div class="bg-black mt-4 mt-lg-0">
+                <div class="bg-black mt-4 mt-lg-0" data-aos="fade-up-left">
                     <div class="pl-48 pr-63">
                         <div class="pt-94">
                             <img src="assets/images/card-logo.png" alt="card-logo">
                         </div>
-                        <p class="mw-432 m-0 fw-normal fs-vs-5 pt-3 color-white">It's time to bridge the digital and
+                        <p class="mw-432 ff-helvetica m-0 fw-normal fs-vs-5 pt-3 color-white">It's time to bridge the digital and
                             physical. Anybodies helps established brands like Toys'R'Us connect real-life places and
                             products with NFTs.</p>
-                        <p class="m-0 fw-normal fs-vs-6 pt-3 color-purple-2 pb-5 pb-lg-0">Learn more about NFTson Solana
+                        <p class="m-0 fw-normal ff-helvetica fs-vs-6 pt-3 color-purple-2 pb-5 pb-lg-0">Learn more about NFTson Solana
                         </p>
                     </div>
                 </div>
@@ -320,16 +320,16 @@
             </div>
         </div>
     </section>
-    <section class="pt-124">
+    <section class="pt-70 pt-124 position-relative">
         <div class="container custom-container">
-            <h2 class="m-0 fw-normal pb-3 fs-xl-2 color-white">Join a thriving community.</h2>
+            <h2 class="m-0 fw-normal pb-3 fs-xl-2 ff-helvetica color-white">Join a thriving community.</h2>
         </div>
 
         <div class="slider pt-3">
             <div>
                 <div class="slider-box d-flex flex-column align-items-center justify-content-center">
-                    <p class="m-0 fw-normal fs-large color-purple-3">11,000</p>
-                    <p class="m-0 fw-normal fs-vs-12 color-gray-3">Solana Hacker House participants</p>
+                    <p class="m-0 fw-normal fs-large ff-helvetica color-purple-3">11,000</p>
+                    <p class="m-0 fw-normal fs-vs-12 ff-helvetica color-gray-3">Solana Hacker House participants</p>
                 </div>
                 <div class="pt-20 slider-hover position-relative">
                     <img class="w-100" src="assets/images/slider-img-1.png" alt="slider-img-1">
@@ -355,8 +355,8 @@
                     </div>
                 </div>
                 <div class="slider-box d-flex flex-column align-items-center justify-content-center">
-                    <p class="m-0 fw-normal fs-large color-light-green-2">48,000</p>
-                    <p class="m-0 fw-normal fs-vs-12 color-gray-3 mw-167 text-center">Developers building during Solana
+                    <p class="m-0 fw-normal ff-helvetica fs-large color-light-green-2">48,000</p>
+                    <p class="m-0 fw-normal ff-helvetica fs-vs-12 color-gray-3 mw-167 text-center">Developers building during Solana
                         Hackathons</p>
                 </div>
             </div>
@@ -369,8 +369,8 @@
             </div>
             <div>
                 <div class="slider-box d-flex flex-column align-items-center justify-content-center">
-                    <p class="m-0 fw-normal fs-large color-yellow">3,800</p>
-                    <p class="m-0 fw-normal fs-vs-12 color-gray-3 text-center">Solana Breakpoint 2022 attendees</p>
+                    <p class="m-0 fw-normal ff-helvetica fs-large color-yellow">3,800</p>
+                    <p class="m-0 fw-normal ff-helvetica fs-vs-12 color-gray-3 text-center">Solana Breakpoint 2022 attendees</p>
                 </div>
                 <div class="pt-20 slider-hover position-relative">
                     <img class="w-100" src="assets/images/slider-img-5.png" alt="slider-img-5">
@@ -382,11 +382,14 @@
             </div>
         </div>
         <div class="container custom-container">
-            <div class="d-flex align-items-center justify-content-center flex-column pt-124">
-                <h3 class="mw-736 m-0 fw-normal pb-3 fs-xl-2 color-white text-center">It's time to join the thousands of
+            <div class="d-flex align-items-center justify-content-center flex-column pt-70 pt-124">
+                <h3 class="mw-736 m-0 ff-helvetica fw-normal pb-3 fs-xl-2 color-white text-center">It's time to join the thousands of
                     creators, artists, and developers using Solana.</h3>
                 <button class="button padding5 bg-purple ff-Roboto fw-normal fs-vs-11 color-white pt-3">Start
                     building</button>
+            </div>
+            <div class="position-absolute fourth-elipse z-n1">
+                <img class="w-100" src="assets/images/fourth-elipse.png" alt="fourth-elipse">
             </div>
         </div>
 
@@ -394,7 +397,7 @@
 
     </section>
     <script src="assets/js/team.js"></script>
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
@@ -403,12 +406,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- <script>
+    <script>
         AOS.init({
-            duration: 2500,
-            // once: true,
+            duration: 3000,
+            once: true,
         });
-    </script> -->
+    </script>
     <script>
         $('.slider').slick({
             infinite: true,

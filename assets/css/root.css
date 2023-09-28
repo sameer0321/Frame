@@ -245,10 +245,17 @@
 
 @media(min-width:576px){
     :root{
+        --fs-xl-12: 81px;
+        --fs-xl-11: 83px;
+        --fs-xl-10: 85px;
+        --fs-xl-8: 70px;
+        --fs-xl-2: 38px;
+    }
+}
+@media(min-width:992px){
+    :root{
         --fs-xl-12: 110px;
         --fs-xl-11: 106px;
         --fs-xl-10: 101px;
-        --fs-xl-8: 70px;
-        --fs-xl-2: 38px;
     }
 }
