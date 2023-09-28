@@ -1,6 +1,14 @@
 @import url(/assets/css/root.css);
 @import url(/assets/css/style.css);
 
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
 /* button */
 .button3 {
     border-radius: 24px;
@@ -11,51 +19,69 @@
     border-radius: 24px;
     border: 1px solid #FFF;
 }
-.button5{
+
+.button5 {
     background: none !important;
     border-radius: none;
 }
 
 /* padding */
 .padding2 {
-    padding: 10px 21px;
+    padding: 13px 21px;
 }
 
 .padding3 {
     padding: 10px 20px;
 }
-.padding4{
+
+.padding4 {
     padding: 1px 11px;
 }
-.py-75{
+
+/* .py-75 {
     padding-top: 75px;
     padding-bottom: 75px;
-}
-.py-31{
+} */
+
+.py-31 {
     padding-top: 31px;
     padding-bottom: 31px;
 }
-.py-100{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.pl-31{
+
+
+
+.pl-31 {
     padding-left: 31px;
 }
-.pr-54{
+
+.pr-54 {
     padding-right: 54px;
 }
-.padding5{
+
+.padding5 {
     padding: 11px 21px;
 }
-.padding6{
+
+.padding6 {
     padding: 2px 20px;
 }
+
+.padding7 {
+    padding: 12px 45px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+ul {
+    padding-left: 0;
+}
+
 /* other */
 .rectangle-elipse {
     max-width: 633.226px;
     position: absolute;
-    /* top: 0; */
+    top: 0;
     right: 0;
     flex-shrink: 0;
     border-radius: 100px;
@@ -63,78 +89,117 @@
     filter: blur(250px);
     height: 100%;
 }
-.sec-box{
+
+.sec-box {
     border-radius: 16px;
-background: #9945FF;
-border: none;
+    background: #9945FF;
+    border: none;
 }
 
 /* background image */
 
-.sec-bg-img{
+.sec-bg-img {
     background-image: url(../images/background-img.png);
     background-repeat: no-repeat;
 }
-.bg-img1{
+
+.bg-img1 {
     background-image: url(../images/bg-img1.png);
     background-repeat: no-repeat;
     height: 320px;
     border-radius: 18px;
 }
-.f-absolute{
+
+.f-absolute {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    right: 10px;
 }
-.bg-img2{
+
+.bg-img2 {
     background-image: url(../images/bg-img2.png);
     background-repeat: no-repeat;
     height: 320px;
     border-radius: 18px;
 }
-.bg-img3{
+
+.bg-img3 {
     background-image: url(../images/bg-img3.png);
     background-repeat: no-repeat;
     height: 320px;
     border-radius: 18px;
 }
-.bg-img4{
+
+.bg-img4 {
     background-image: url(../images/bg-img4.png);
     background-repeat: no-repeat;
     height: 320px;
     border-radius: 18px;
 }
-.bg-img5{
+
+.bg-img5 {
     background-image: url(../images/bg-img5.png);
     background-repeat: no-repeat;
     height: 320px;
     border-radius: 18px;
 }
-.bg-img6{
+
+.bg-img6 {
     background-image: url(../images/bg-img6.png);
     background-repeat: no-repeat;
     height: 320px;
     border-radius: 18px;
 }
 
+.footer-img {
+    background: #848895;
+    width: 26px;
+}
+
 /* max-width */
-.mw-390{
+.mw-390 {
     max-width: 390px;
 }
-.mw-387{
+
+.mw-387 {
     max-width: 387px;
 }
 
 /* card */
-.card-1{
+.card-1 {
     border-radius: 12px;
-background: #19161C;
-max-width: 346.203px;
-height: 282px;
+    background: #19161C;
+    max-width: 346.203px;
+    height: 282px;
 }
-.content2{
+
+.content2 {
     padding: 31px 31px;
+}
+
+.content3 {
+    padding: 25px 20px;
+}
+
+.card-3 {
+    border-radius: 14px;
+    background: #19161C;
+    box-shadow: 0px 58px 80px 0px rgba(0, 0, 0, 0.16);
+    height: 100%;
+}
+
+input {
+    padding: 13px 13px;
+    width: 100%;
+    border-radius: 80px;
+    background: black;
+    outline: unset;
+    border: none;
+}
+
+.sec-btn {
+    bottom: 2px;
+    right: 9px;
 }
 
 
@@ -142,19 +207,20 @@ height: 282px;
 
 
 /* ellipse */
-.elipse-5{
+.elipse-5 {
     width: 259px;
-height: 31px;
-border-radius: 259px;
-background: #A962FF;
-filter: blur(40px);
-bottom: 0;
-left: 10%;
-opacity: 0;
-transition: all 300ms linear;
-visibility: hidden;
+    height: 31px;
+    border-radius: 259px;
+    background: #A962FF;
+    filter: blur(40px);
+    bottom: 0;
+    left: 10%;
+    opacity: 0;
+    transition: all 300ms linear;
+    visibility: hidden;
 }
-.card-1:hover .elipse-5{
+
+.card-1:hover .elipse-5 {
     opacity: 1;
     visibility: visible;
 }
@@ -162,12 +228,27 @@ visibility: hidden;
 
 /* leainer gradiant */
 
-.bg-sec-img{
+.bg-sec-img {
     background: linear-gradient(180deg, #19161C 0%, #000 100%);
 }
 
 /* line */
 
-.bottom-line{
+.bottom-line {
     border-bottom: 2px solid #848895;
+}
+
+@media (min-width:576px) {
+    .py-75 {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .content3 {
+        padding: 39px 51px;
+    }
+    .py-100 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
 }

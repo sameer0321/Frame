@@ -11,7 +11,7 @@
     --fs-xl-12: 110px;
     --fs-xl-11: 106px;
     --fs-xl-10: 101px;
-    --fs-xl-9: 94px;
+    --fs-xl-9: 63px;
     --fs-xl-8: 70px;
     --fs-xl-7: 68px;
     --fs-xl-6: 46px;
@@ -20,9 +20,9 @@
     --fs-xl-3: 39px;
     --fs-xl-2: 38px;
     --fs-large: 37px;
-    --fs-medium: 36px;
+    --fs-medium: 24px;
     --fs-small: 35px;
-    --fs-vs: 32px;
+    --fs-vs: 29px;
     --fs-vs-2: 28px;
     --fs-vs-3: 26px;
     --fs-vs-4: 25px;
@@ -32,7 +32,8 @@
     --fs-vs-8: 18px;
     --fs-vs-9: 17px;
     --fs-vs-10: 16px;
-    --fs-vs-11: 15px;
+    --fs-vs-11: 12px;
+    --fs-vs-14: 14px;
     --fs-vs-12: 12px;
     --fs-vs-13: 11px;
 
@@ -178,7 +179,9 @@
 .fs-vs-12 {
     font-size: var(--fs-vs-13);
 }
-
+.fs-vs-14 {
+    font-size: var(--fs-vs-14);
+}
 /* colors */
 
 .color-black {
@@ -221,4 +224,13 @@
 }
 .background-light-green{
     background: #14F195;
+}
+
+@media (min-width:576px) {
+    :root{
+        --fs-medium: 36px;
+        --fs-xl-9: 94px;
+        --fs-vs-11: 15px;
+        --fs-vs: 32px;
+    }
 }
