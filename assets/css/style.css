@@ -7,6 +7,7 @@
     text-decoration: none !important;
     box-sizing: border-box;
     list-style-type: none;
+    transition: all 500ms linear;
 }
 
 .custom-container {
@@ -168,11 +169,24 @@
     border-radius: 24px;
     border: 1px solid #000;
 }
+.button3:hover {
+    border: 1px solid #19FB9B;
+    background-color: transparent;
+    color: #19FB9B;
+
+}
 
 .button4 {
     border-radius: 24px;
     border: 1px solid #FFF;
+    color: #fff;
+    background-color: transparent;
 }
+.button4:hover {
+    background-color: #fff;
+    color: black;
+}
+
 
 .button5 {
     background: none !important;
@@ -493,8 +507,13 @@ input {
     background: #848895;
     width: 26px;
 }
-
-
+ 
+.f-footer-design{
+   transition: all 500ms linear;
+    }
+.f-footer-design:hover{
+-webkit-text-stroke: 1px #fff ;
+}
 
 /* slider */
 
@@ -670,4 +689,30 @@ input {
         height: 282px;
     }
 
+}
+
+
+
+.f-line::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: -14%;
+    transition: .5s;
+    background: linear-gradient(261.81deg, #19FB9B 37.99%, #8C01FA 100%);
+ 
+}
+
+.f-line:hover::before{
+    width: 100%;
+    left: 0;
+}
+.app-icon{
+    transition:  all 500ms linear;
+}
+
+.app-icon:hover{
+  transform: translateY(-30%);
 }
