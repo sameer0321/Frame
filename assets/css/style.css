@@ -593,6 +593,29 @@ input {
     fill: white;
 }
 
+.f-line::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: -14%;
+    transition: .5s;
+    background: linear-gradient(261.81deg, #19FB9B 37.99%, #8C01FA 100%);
+ 
+}
+
+.f-line:hover::before{
+    width: 100%;
+    left: 0;
+}
+.app-icon{
+    transition:  all 500ms linear;
+}
+
+.app-icon:hover{
+  transform: translateY(-30%);
+}
 
 /* navbar */
 .mobileView {
@@ -720,30 +743,4 @@ input {
         padding-top: 166px;
     }
 
-}
-
-
-
-.f-line::before{
-    content: '';
-    width: 0;
-    height: 2px;
-    position: absolute;
-    right: 0;
-    bottom: -14%;
-    transition: .5s;
-    background: linear-gradient(261.81deg, #19FB9B 37.99%, #8C01FA 100%);
- 
-}
-
-.f-line:hover::before{
-    width: 100%;
-    left: 0;
-}
-.app-icon{
-    transition:  all 500ms linear;
-}
-
-.app-icon:hover{
-  transform: translateY(-30%);
 }
